@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 1170px;
+    margin: auto;
+}
+.logo img{
+    width : 150px;
+    float : left;
+    height: auto;
+}
+.nav-area{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.nav-area li{
+    display: inline-block;
+}
+.nav-area li a{
+    color: #000;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 16px;
+}
+.nav-area li a:hover{
+    background: #000;
+    color: #fff;
+}
+.welcome-text{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 20% 30%;
+    text-align: center;
+}
+.welcome-text img{
+    border: 5px solid #000;
+    border-radius: 4px;
+    padding: 2px;
+    width: 100px;
+}
+.welcome-text h1{
+    text-align: center;
+    color: #000;
+    font-size: 40px;
+}
+.expense-btn{
+    background-color: #000;
+    border: none;
+    color:white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.container{
+    position: relative;
+    width:1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    padding: 30px;
+    margin-top: 8%;
+}
+.container .card{
+    width: 250px;
+    position: relative;
+    height:300px;
+    background: #f0f0f0;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow:0.5px 10px #e6e6e6;
+    transition:0.3s ease-in-out;
+    margin-top: 5%;
+}
+.container .card .Userinfo img{
+    width: 100px;
+    height: auto;
+    margin:5px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    border-radius: 50%;
+    left: 30%;
+}
+.container .card ul{
+    float:left;
+    list-style-type: circle;
+}
+.container .card .uploadingfiles .upload-btn{
+    background-color: #000;
+    border: none;
+    color:white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
