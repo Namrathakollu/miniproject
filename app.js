@@ -79,6 +79,18 @@ app.get("/home", function(req, res) {
   }
 });
 
+app.get("/logout", function(req, res) {
+  req.logout();
+  res.redirect("/");
+});
+
+app.get("/enter_expense", function(req, res) {
+  if (req.isAuthenticated()) {
+    res.render("enter_expense");
+  } else {
+    res.redirect("/");
+  }
+});
 ////////////////post/////////////////////
 app.post("/", function(req, res) {
   const user = new User({

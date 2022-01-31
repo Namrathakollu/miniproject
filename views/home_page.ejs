@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>website using html and css</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
         <header>
@@ -13,14 +13,16 @@
                 </div>
                 <ul class="nav-area">
                     <li><button onclick="redirect()">home</button></li>
-                    <li><button onclick="">logout</button></li>
+                    <a href="#">logout</a>
+                    <li><buttonhref="/logout" ></button></li>
                 </ul>
             </div>
             <div class="welcome-text">
                 <img src="images/graph-icon.jpg" alt="">
                 <h1>No Expense Data</h1>
                 <h2>Please enter an expense</h2>
-                <button id="expense-btn" class="expense-btn" onClick="redirect()">enter expense</button>
+                <a href="/enter_expense"><button id="expense-btn" class="expense-btn" >enter expense</button></a>
+
             </div>
             <script type="text/javascript">
                 function redirect()
